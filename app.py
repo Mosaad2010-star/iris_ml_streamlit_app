@@ -6,7 +6,7 @@ from sklearn.datasets import load_iris
 st.title("Iris Flower Prediction App")
 
 # Load model
-model = joblib.load("models/iris_model.pkl")
+model = joblib.load("iris_model.pkl")
 
 # User input
 sepal_length = st.slider("Sepal length (cm)", 4.0, 8.0, 5.0)
