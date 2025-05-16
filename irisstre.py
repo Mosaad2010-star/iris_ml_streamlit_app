@@ -21,11 +21,13 @@ st.write("---")
 # ---------------------------
 # Load Model
 # ---------------------------
-@st.cache_resource
-def load_model():
-    return joblib.load("models/iris_model.pkl")
+MODEL_PATH = "models/iris_model.pkl"
 
-model = load_model()
+@st.cache_resource
+def load_model(model_path):
+    return joblib.load(model_path)
+
+model = load_model(MODEL_PATH)
 target_names = load_iris().target_names
 
 # ---------------------------
