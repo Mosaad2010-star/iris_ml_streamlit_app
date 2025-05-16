@@ -10,17 +10,6 @@ This is a complete machine learning project using the Iris dataset. The project 
 - `app/app.py` — Streamlit app to interact with the model.
 - `requirements.txt` — Required Python packages.
 
-## How to Run
-
-1. Install the requirements:
-    ```
-    pip install -r requirements.txt
-    ```
-
-2. Run the Streamlit app:
-    ```
-    streamlit run app/app.py
-    ```
 
 ## Author
 
