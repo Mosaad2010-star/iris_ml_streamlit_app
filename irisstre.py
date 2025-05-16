@@ -21,7 +21,7 @@ st.write("---")
 # ---------------------------
 # Load Model
 # ---------------------------
-MODEL_PATH = "models/iris_model.pkl"
+MODEL_PATH = "iris_model.pkl"
 
 @st.cache_resource
 def load_model(model_path):
